@@ -9,7 +9,7 @@
 ## Features
 
 - Directly uses the Linux `getrandom` system call (syscall number 384 on ARMv7) to gather 32 bytes of cryptographically secure random data.
-- Transforms the raw random bytes into readable characters by mapping each byte modulo the size of a predefined character set.
+- Transforms each raw random byte into a readable character by taking its remainder modulo the size of a predefined character set and using that as an index into the set.
 - Prints the generated string followed by a newline to standard output.
 - Implements its own program entry (`_start`) with no reliance on `libc` or startup files.
 - Statically linked and designed to run on bare ARMv7 Linux systems or emulators.
