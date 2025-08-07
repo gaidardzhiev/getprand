@@ -1,4 +1,4 @@
-# ARMv7 32-bit Linux Assembly Random String Generator
+# ARMv7 32-bit Linux Pseudo Random String Generator
 
 ## Overview
 
