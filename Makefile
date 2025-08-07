@@ -14,6 +14,9 @@ $(OBJ): $(SRC)
 $(TARGET): $(OBJ)
 	$(LD) $(LDFLAGS) -o $@ $^
 
+install:
+	cp $(TARGET) /usr/bin/$(TARGET)
+
 clean:
 	rm -f $(OBJ) $(TARGET)
 
