@@ -29,7 +29,7 @@ This set includes uppercase, lowercase, digits, and a selection of common symbol
 
 ---
 
-## Low-Level Implementation Details
+## Low Level Implementation Details
 
 ### Syscall Interface
 
