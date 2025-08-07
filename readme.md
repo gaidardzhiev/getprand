@@ -121,7 +121,7 @@ Run the resulting executable on an ARMv7 Linux system or emulator. The program w
 
 ## License
 
-
+This project is provided under the GPL3 License.
 
 ---
 
