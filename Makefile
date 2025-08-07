@@ -4,7 +4,7 @@ CC=gcc
 LDFLAGS=-e _start --static
 OBJ=prand.o
 TARGET=getprand
-SRC=getprand_armv8l.s
+SRC=getprand.s
 
 all: $(TARGET)
 
