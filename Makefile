@@ -1,6 +1,5 @@
 AS=as
 LD=ld
-CC=gcc
 LDFLAGS=-e _start --static
 OBJ=prand.o
 TARGET=getprand
