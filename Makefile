@@ -17,6 +17,8 @@ install:
 	cp $(TARGET) /usr/bin/$(TARGET)
 
 clean:
-	rm -f $(OBJ) $(TARGET)
+	rm -f $(OBJ) $(TARGET) raw.o raw
 
-#.PHONY: all clean
+raw:
+	$(AS) -o raw.o raw.s
+	$(LD) $(LDFLAGS) -o raw raw.o
