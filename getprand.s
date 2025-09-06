@@ -1,3 +1,6 @@
+// Copyright (C) 2025 Ivan Gaydardzhiev
+// Licensed under the GPL-3.0-only
+
 .section .data
 c:
 	.ascii "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789():;!+-$#@/*={}|"
