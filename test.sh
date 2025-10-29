@@ -8,7 +8,7 @@ X() {
 
 Y=0
 
-while [ "$Y" -lt "$Z" ]
+while [ "${Y}" -lt "${Z}" ]
 do
 	./getprand | tr -d '\n\r' | X || exit 1
 	Y=$((Y + 1))
