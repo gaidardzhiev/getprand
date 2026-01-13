@@ -1,6 +1,7 @@
 #!/bin/sh
+#TODO: get rid of the evil bashisms to ensure POSIX compatibility...
 
-Z=625
+Z="625"
 
 X() {
 	od -An -tx1 | tr -d ' \n'
